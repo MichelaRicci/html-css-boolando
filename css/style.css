@@ -200,22 +200,12 @@ h6 {
     font-weight: 900;
 }
 
-/* Favourite & label*/
+/* Label*/
 
 .pic {
     position: relative;
 }
 
-.fav {
-    background-color: #ffffff;
-    color: #000000;
-    padding: 4px 10px;
-    font-size: 20px;
-    position: absolute;
-    top: 6px;
-    right: 0;
-
-}
 
 .label {
    color: #ffffff; 
@@ -243,9 +233,25 @@ h6 {
 
 }
 
-/* Overlay */
+/* Favourit  */
 
+.fav {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 4px 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 6px;
+    right: 0;
 
+}
+
+.fav:hover {
+    color: #FF0200;
+
+}
+
+/* Img Overlay */
 
 .default {
     display: block;
