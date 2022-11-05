@@ -12,6 +12,7 @@ body {
 
 header {
   background-color: #FF6800;
+  box-shadow: 0 0 5px #3d3d3d;
  
 }
 
@@ -100,10 +101,6 @@ header {
     margin-top: 40px;
 }
 
-/* .pic {
-
-    border: 2px dashed black;
-} */
 
 .pic > img {
     width: 100%;
@@ -129,6 +126,7 @@ h5 {
 .line-through {
     text-decoration: line-through;
 }
+
 
 /* Footer */
 
@@ -199,6 +197,10 @@ h6 {
     font-size: 12px;
     font-weight: 900;
 }
+
+
+
+
 
 /* Label*/
 
