@@ -198,3 +198,29 @@ p {
 }
 
 
+
+/* Favourite overlay */
+
+
+
+.default {
+    display: block;
+}
+
+.overlay {
+    display: none;
+}
+
+
+.pic:hover .default {
+   content: '';
+   display: none;
+   
+}
+
+.pic:hover .overlay {
+    content: '';
+    display: block;
+    width: 100%;
+  
+}
