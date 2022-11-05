@@ -15,14 +15,6 @@ header {
  
 }
 
-h4 {
-    text-transform: uppercase;
-}
-
-span {
-    font-size: 14px;
-
-}
 
 /* Utils */
 
@@ -117,9 +109,20 @@ span {
     width: 100%;
 }
 
+h4 {
+    text-transform: uppercase;
+}
+
+span {
+    font-size: 13px;
+
+}
+
+
 h5 {
     color: red;
     display: inline;
+    font-size: 13px;
 
 }
 
@@ -191,15 +194,56 @@ h3 {
 }
 
 
-p {
+h6 {
     color: #ffffff;
     font-size: 12px;
     font-weight: 900;
 }
 
+/* Favourite & label*/
+
+.pic {
+    position: relative;
+}
+
+.fav {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 4px 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 6px;
+    right: 0;
+
+}
+
+.label {
+   color: #ffffff; 
+   font-size: 12px;
+   font-weight: 900;
+   padding: 5px 10px;
+   position: absolute;
+   bottom: 90px;
+
+}
+
+.discount {
+    background-color: #FF0200;
+
+}
+
+.sostenibile {
+    background-color: #008001;
+    left: 50px;
+}
 
 
-/* Favourite overlay */
+.onlylab {
+    left: 0;
+
+}
+
+/* Overlay */
 
 
 
@@ -224,3 +268,4 @@ p {
     width: 100%;
   
 }
+
